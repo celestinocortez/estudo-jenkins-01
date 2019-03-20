@@ -1,6 +1,6 @@
 # Cria diretório do projeto
-foo@bar:~$ cd
-foo@bar:~$ cd Warehouse/estudo-jenkins-01
+$ cd
+$ cd Warehouse/estudo-jenkins-01
 
 # Clona repositório
 foo@bar:~$ git clone https://github.com/executeautomation cucumberbasic.git
@@ -25,10 +25,11 @@ Localhost:8080/
 # Git Novo Repositório
 github > new repository > celestinocortez/estudo-jenkins-01 > public
 foo@bar:~$ git init
+foo@bar:~$ git add .
+foo@bar:~$ git commit -m "init"
 foo@bar:~$ git remote add origin https://github.com/celestinocortez/estudo-jenkins-01.git
-foo@bar:~$ git push -u origin master
 foo@bar:~$ git remote -v
-
+foo@bar:~$ git push -u origin master
 
 
 
