@@ -38,4 +38,4 @@ foo@bar:~$ git add . && git commit -m "issue readme" && git push
 	* Git > https://github.com/celestinocortez/estudo-jenkins-01.git
 * Build
 	* Invoke top-level Maven targets
-	* Goals: compile
+	* Goals: compile 
