@@ -1,11 +1,11 @@
 # Cria diretório do projeto
-```
+```shell
 $ cd
 $ cd Warehouse/estudo-jenkins-01
 ```
 
 # Clona repositório
-```
+```shell
 foo@bar:~$ git clone https://github.com/executeautomation cucumberbasic.git
 ```
 
