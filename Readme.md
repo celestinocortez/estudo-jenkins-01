@@ -12,19 +12,10 @@ foo@bar:~$ mvn compile
 foo@bar:~$ mvn package
 ```
 
-# Jenkins
-
-## Jenkins Configura idioma en_US
-* Gerenciar Jenkins > Gerenciar Plugins > Disponíveis > Locale (Instalar)
-* Gerenciar Jenkins > Configurar Sistema > Locale > en_US (Ignore browser)
-
-## Jenkins Job basic
-Localhost:8080/
-
 # Git
 
 ## Git Novo Repositório
->github > new repository > celestinocortez/estudo-jenkins-01 > public
+* github > new repository > celestinocortez/estudo-jenkins-01 > public
 ```shell
 foo@bar:~$ git init
 foo@bar:~$ git add .
@@ -35,7 +26,16 @@ foo@bar:~$ git push -u origin master
 foo@bar:~$ git add . && git commit -m "issue readme" && git push
 ```
 
+# Jenkins
 
+## Jenkins Configura idioma en_US
+* Gerenciar Jenkins > Gerenciar Plugins > Disponíveis > Locale (Instalar)
+* Gerenciar Jenkins > Configurar Sistema > Locale > en_US (Ignore browser)
 
-
-
+## Jenkins Job basic
+* New Item > jobName > Freestyle project
+* Source Code Management
+	* Git > https://github.com/celestinocortez/estudo-jenkins-01.git
+* Build
+	* Invoke top-level Maven targets
+	* Goals: compile
